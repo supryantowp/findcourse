@@ -1,5 +1,5 @@
 {
-  "name": "Find Course",
+  "name": "findcourse",
   "description": "Landing Page using chakra ui and nextjs",
   "version": "1.0.0",
   "scripts": {
