@@ -1,6 +1,6 @@
 {
-  "name": "Sakura",
-  "description": "starter project nextjs, chakra ui, typescript",
+  "name": "Find Course",
+  "description": "Landing Page using chakra ui and nextjs",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
