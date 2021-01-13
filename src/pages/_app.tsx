@@ -1,13 +1,15 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import { AppProps } from 'next/app'
+import Head from 'next/head'
 
-import Navbar from '@/component/navbar'
 import theme from '@/theme'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider resetCSS theme={theme}>
-      <Navbar />
+      <Head>
+        <title>Find Course</title>
+      </Head>
       <Component {...pageProps} />
     </ChakraProvider>
   )
